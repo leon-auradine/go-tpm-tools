@@ -5,10 +5,12 @@ go 1.17
 
 replace github.com/google/go-tpm => github.com/leon-auradine/go-tpm v0.0.0-20221012003451-7bb8ae53bcbc
 
+replace github.com/google/go-tpm-tools => ./
+
 require (
 	github.com/google/go-sev-guest v0.2.4
-	github.com/google/go-tpm v0.3.3
-	github.com/google/go-tpm-tools v0.3.9
+	github.com/google/go-tpm v0.0.0-00010101000000-000000000000
+	github.com/google/go-tpm-tools v0.0.0-00010101000000-000000000000
 	google.golang.org/protobuf v1.28.1
 )
 
